@@ -1,18 +1,24 @@
 body {
   background-color: hsl(212, 45%, 89%);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  background-color: hsl(212, 45%, 89%);
+  margin: 0;
+  height: 100vh;
+  position: relative;
 }
 
 .content {
   background-color: hsl(0, 0%, 100%);
   margin: 30px 0 20px;
-  display: flex;
-  flex-direction: column;
   padding: 10px 10px 10px 10px;
   max-width: 250px;
   border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .heading {
