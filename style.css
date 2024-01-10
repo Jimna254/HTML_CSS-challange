@@ -26,7 +26,8 @@ body {
   font-size: 20px;
   /* font-weight: bold; */
   font-family: Outfit;
-  padding-left: 25px;
+  padding-left: 10px;
+  color: hsl(218, 44%, 22%);
 }
 
 .incontent {
@@ -34,6 +35,7 @@ body {
   font-size: 15px;
   padding-left: 10px;
   font-family: Outfit;
+  color: hsl(220, 15%, 55%);
 }
 
 img {
